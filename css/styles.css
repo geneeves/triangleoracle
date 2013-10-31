@@ -1,0 +1,39 @@
+/*CSS Stylesheet*/
+.equilateral {
+  display: none;
+}
+
+.scalene {
+	display: none;
+}
+
+.isosceles {
+	display: none;
+}
+
+.not-valid {
+  display: none;
+}
+
+.form-horizontal label {
+	margin-top: 5px;
+}
+
+body {
+	background-image: url("../img/binding_dark.png");
+	background-repeat: none;
+	color: #BFBFAC;
+	font-family: 'Advent Pro', sans-serif;
+  font-weight: 100; 
+}
+
+.container-fluid {
+	margin-top: 8%;
+	margin-left: 18%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+
+.answer {
+	float: right;
+}

@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Triangle spec runner</title>
+  <link rel="stylesheet" href="../css/mocha.css">
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../js/jquery-1.10.2.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script src="../js/mocha.js"></script>
+  <script src="../js/chai.js"></script>
+  <script>mocha.setup('bdd');</script>
+  <script src="../js/spec.js"></script>
+  <script>
+    should = chai.should();
+    mocha.checkLeaks();
+    mocha.globals(['jQuery']);
+    mocha.run();
+  </script>
+</body>
+</html>
