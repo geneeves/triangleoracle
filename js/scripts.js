@@ -30,8 +30,7 @@ function triangleType(number1, number2, number3) {
   }
 }   
 
-
-/*WATCH OUT! IT'S JQUERY TIME?!?*/
+/*WATCH OUT! IT'S JQUERY TIME*/
 $(function() {
   $("form.calculator").submit(function() {
     var number1 = parseInt($("input#number1").val());
@@ -69,5 +68,3 @@ $(function() {
     return false;
   });
 });
-
-
